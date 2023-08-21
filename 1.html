@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <title>排行榜</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div style="width: 100%; z-index: auto;">
+	<div class="top">
+    	<div class="left">
+        	<div class="aa">
+                <img src="image/logo.png">
+                <span>网易云音乐</span>
+            </div>
+            <ul class="nav nav-pills" style="width:900px; padding-left:310px; margin-top:-58px;">
+                <li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        发现音乐
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">每日推荐</a></li>
+                        <li><a href="#">歌单</a></li>
+                        <li><a href="1.html">排行榜</a></li>
+                    </ul>
+                </li>
+                <li><a href="like.html">我的音乐</a></li>
+                <li><a href="shop.html">商城</a></li>
+                <li><a href="a.html">关于</a></li>
+            </ul>
+        </div>
+        <div class="right1 hidden-xs hidden-sm">
+        	<div class="input-group">
+                <input type="text" id="myinput" value="请输入" class="form-control">
+                <span class="input-group-addon">
+                	<a href="#" class="glyphicon glyphicon-search"></a>
+                </span>
+            </div>
+        </div>
+        
+        
+<!--模态声明，show表示显示-->
+<div class="modal fade" id="myModal" tabindex="-1">
+    <!--窗口声明-->
+    <div class="modal-dialog">
+        <!--内容声明-->
+        <div class="modal-content">
+            <!--头部-->
+            <div class="modal-header" style="height: 300px;">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+                <img style="padding: 0;" src="image/logo.png">
+                <h4 class="modal-title" style="width: 72px; 
+                		   margin-left: 65px; margin-top: -35px;">账号登录</h4>
+            </div>
+            <!--主体-->
+            <div class="login">
+    		  <input type="text" name="u" placeholder="请输入用户名" required="required" />
+        	<input type="password" name="p" placeholder="请输入密码" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">登录</button>
+			</div> 
+        </div>
+    </div>
+</div>
+        <div class="bb">
+           <button class="btn btn-default navbar-btn navbar-right" id="btn"><a>登录</a></button>
+           <button class="btn btn-default navbar-btn navbar-right"><a href="zhuce.html">注册</a></button>
+        </div>
+    </div>
+</div>
+</nav>
+
+
+<div class="container">
+    <div class="jumbotron">
+    	<div class="zj">
+        	<a href="#"><img src="image/xzq.png"></a>
+        </div>
+        <h4>专辑介绍：</h4>
+        <p>⊙我型我SHOW"人气天王 2006年乐坛最具爆发力的"新优质偶像" </p>
+        <p>⊙数码行业的领导品牌--爱国者近日将与中国最大的家电零售连锁企业--国美电器，联手举办以“爱我 爱正版”为主题歌友签售会，签售会将于2006年6月18日在国美电器白石桥店举行。届时，人气偶像薛之谦将出席此次签售会，为广大歌迷朋友带来其最新专辑。另外，爱国者下属的爱国者数码音乐网、爱国者数码音频等部门将参与该次活动，明星产品如"视尚MP3太阳镜F566"也将在活动中亮相。</p>
+        <a href="#" class="btn btn-default"data-toggle="collapse" data-target="#content">更多内容<span class="caret"></span></a>
+			<div class="collapse" id="content">
+				<div class="well">
+					薛之谦（Joker Xue），1983年7月17日出生于上海，华语流行乐男歌手、影视演员、音乐制作人，毕业于格里昂酒店管理学院。 2005年，参加选秀节目《我型我秀》正式出道 。2006年，发行首张同名专辑《薛之谦》，随后凭借歌曲《认真的雪》获得广泛关注。2008年，发行专辑《深深爱过你》并在上海举行个人首场演唱会“谦年传说” 。2013年，专辑《几个薛之谦》获得MusicRadio中国TOP排行榜内地推荐唱片。2014年，专辑《意外》获得第21届东方风云榜颁奖最佳唱作人 ；2015年6月，薛之谦首度担当制作人并发行原创EP《绅士》，2016年，凭借EP《绅士》、《一半》获得第16届全球华语歌曲排行榜多项奖项，而歌曲《初学者》则获得年度二十大金曲奖。2017年4月，开启“我好像在哪见过你”全国巡回演唱会。
+				</div>
+			</div>
+    </div>
+</div>
+
+<nav  id="nav" class="navbar navbar-default">
+	<a href="#" class="navbar-brand">网易云音乐</a>
+	<ul class="nav navbar-nav nav-pills">
+		<li class="dropdown active">
+			<a href="#" data-toggle="dropdown">飙升榜<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">新歌榜</a></li>
+				<li><a href="#">原创榜</a></li>
+				<li><a href="#">热歌榜</a></li>
+			</ul>
+		</li>
+        <li class="dropdown">
+			<a href="#" data-toggle="dropdown">说唱榜<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#sc">古典音乐榜</a></li>
+				<li><a href="#sc">电音榜</a></li>
+				<li><a href="#sc">新声榜</a></li>
+			</ul>
+		</li>
+        <li class="dropdown">
+			<a href="#" data-toggle="dropdown">音乐榜<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#yy">韩语榜</a></li>
+				<li><a href="#yy">国电榜</a></li>
+				<li><a href="#yy">电竞音乐榜</a></li>
+			</ul>
+		</li> 
+	</ul>
+</nav>
+
+
+    <div class="row " style="width:1260px; margin-left:45px;" >
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="bs">
+            <div class="thumbnail">
+                <!--图片-->
+                <img src="image/1.png">
+                <!--飙升榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=19723756">
+                <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="bs">
+            <div class="thumbnail">
+                <!--图片-->
+                <img src="image/2.png">
+                <!--新歌榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=3779629">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="bs">
+            <div class="thumbnail">
+                <!--图片-->
+                <img src="image/3.png">
+                <!--原创榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=2884035">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="bs">
+            <div class="thumbnail">
+                <!--图片-->
+                <img src="image/4.png">
+                <!--热歌榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=3778678">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="sc">
+            <div class="thumbnail" id="sc">
+                <!--图片-->
+                <img src="image/5.png">
+                <!--说唱榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=991319590">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="sc">
+            <div class="thumbnail" id="gdyy">
+                <!--图片-->
+                <img src="image/6.png">
+                <!--古典音乐榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=71384707">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="sc">
+            <div class="thumbnail" id="dy">
+                <!--图片-->
+                <img src="image/7.png">
+                <!--电音榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=1978921795">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="sc">
+            <div class="thumbnail" id="xs">
+                <!--图片-->
+                <img src="image/8.png">
+                <!--新声榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=2617766278">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        
+        
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="yy">
+            <div class="thumbnail" id="yy">
+                <!--图片-->
+                <img src="image/9.png">
+                <!--音乐榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=71385702">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="yy">
+            <div class="thumbnail" id="hy">
+                <!--图片-->
+                <img src="image/10.png">
+                <!--韩语榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=745956260">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="yy">
+            <div class="thumbnail" id="gd">
+                <!--图片-->
+                <img src="image/11.png">
+                <!--国电榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=10520166">
+                    <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12 a" id="yy">
+            <div class="thumbnail" id="djyy">
+                <!--图片-->
+                <img src="image/12.png">
+                <!--电竞音乐榜-->
+                <a href="https://music.163.com/#/discover/toplist?id=2006508653">
+                <button class="btn btn-success center-block">去看看</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+<!--页脚-->
+<div id="foot">
+  <div class="trail-box">
+	<p>
+	  <a href="#" target="_blank">帮助</a> | 
+	  <a href="#" target="_blank">官方微博</a> | 
+	  <a href="#" target="_blank">新浪网导航</a> | 
+	  <a href="#" target="_blank">未成年人家长监护</a>
+	</p>
+	<p class="copyright"><span>网易云音乐网络技术有限公司 
+	  <a target="_blank" href="#" class="JWW_num" style="margin:0px 15px;">京网文[2011]0398-130号</a> 
+京ICP证100780号</span>Copyright © 1996-2017 SINA</p>
+	<p class="copyright"><span>地址：北京市海淀区西北旺东路10号院新浪总部大厦  电话：010-57462673</span></p>
+	</div>
+</div>
+
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/sousuo.js"></script>
+<script type="text/javascript">
+$('#nav a').on('click',function(e){
+	e.preventDefault();
+	$(this).tab('show');
+});
+$('#content').scrollspy({
+	offset:0,
+	target:'#nav',
+});
+$("#btn").on("click",function(){
+	$("#myModal").modal("show");
+});
+$("#myModal").modal({
+	show:false,
+	backdrop:false,
+	keyboard:false,
+});
+</script>
+</body>
+</html>

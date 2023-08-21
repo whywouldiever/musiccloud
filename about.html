@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <title>关于</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div style="width: 100%; z-index: auto;">
+	<div class="top">
+    	<div class="left">
+        	<div class="aa">
+                <img src="image/logo.png">
+                <span>网易云音乐</span>
+            </div>
+            <ul class="nav nav-pills" style="width:900px; padding-left:310px; margin-top:-58px;">
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        发现音乐
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">每日推荐</a></li>
+                        <li><a href="#">歌单</a></li>
+                        <li><a href="1.html">排行榜</a></li>
+                    </ul>
+                </li>
+                <li><a href="like.html">我的音乐</a></li>
+                <li><a href="shop.html">商城</a></li>
+                <li class="active"><a href="about.html">关于</a></li>
+            </ul>
+        </div>
+        <div class="right1 hidden-xs hidden-sm">
+        	<div class="input-group">
+                <input type="text" id="myinput" value="请输入" class="form-control">
+                <span class="input-group-addon">
+                	<a href="#" class="glyphicon glyphicon-search"></a>
+                </span>
+            </div>
+        </div>
+        
+        
+<!--模态声明，show表示显示-->
+<div class="modal fade" id="myModal" tabindex="-1">
+    <!--窗口声明-->
+    <div class="modal-dialog">
+        <!--内容声明-->
+        <div class="modal-content">
+            <!--头部-->
+            <div class="modal-header" style="height: 300px;">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+                <img style="padding: 0;" src="image/logo.png">
+                <h4 class="modal-title" style="width: 72px; 
+                		   margin-left: 65px; margin-top: -35px;">账号登录</h4>
+            </div>
+            <!--主体-->
+            <div class="login">
+    		  <input type="text" name="u" placeholder="请输入用户名" required="required" />
+        	<input type="password" name="p" placeholder="请输入密码" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">登录</button>
+			</div> 
+        </div>
+    </div>
+</div>
+        <div class="bb">
+           <button class="btn btn-default navbar-btn navbar-right" id="btn">登录</button>
+           <button class="btn btn-default navbar-btn navbar-right">注册</button>
+        </div>
+    </div>
+</div>
+</nav>
+<div class="jumbotron">
+	<div class="container">
+		<hgroup>
+			<h1>关于</h1>
+			<h4>音乐人相关...</h4>
+		</hgroup>
+	</div>
+</div>
+<div id="about">
+	<div class="container">
+		<div class="row">
+            <div class="col-md-3 hidden-xs hidden-sm" id="nav">
+                <div class="list-group">
+                    <a class="list-group-item" href="#con-1">成为音乐人</a>
+                    <a class="list-group-item" href="#con-2">作品和身份管理</a>
+                    <a class="list-group-item" href="#con-3">作品和粉丝数据</a>
+                    <a class="list-group-item" href="#con-4">音乐人收入</a>
+                    <a class="list-group-item" href="#con-5">版权管理</a>
+                    <a class="list-group-item" href="#con-6">ISRC相关</a>
+                </div>
+            </div>
+            <div class="col-md-9 about" style="padding:0 10px;height:500px;overflow:auto;position:relative;"id="content">
+                <a id="con-1"></a> 
+                <h3><strong>成为音乐人</strong></h3> 
+                <h4>1.如何成为网易音乐人</h4>
+                <p>音乐人申请页面 http://music.163.com/st/creator 按照指引，提交材料和作品。通过审核后，即可成为网易音乐人，能够便捷发布和管理作品，并可拥有音乐人身份标识、查看音乐数据、推广作品等权益。 萌萌哒教程如下： http://music.163.com/#/topic?id=205001 酷酷哒网易作词、作曲人教程如下： https://music.163.com/#/topic?id=19204126</p>
+                <h4>2.入驻成为网易音乐人的基本权益</h4>
+                <p>独有音乐人身份标识，在全平台展示<br />
+                    自由发布和管理自己的艺人页、专辑和歌曲<br />
+                    新专辑上线自动通知所有粉丝<br />
+                    在创作者中心查看歌曲和粉丝详细数据<br />
+                    原创作品有机会进入网易云音乐原创歌曲榜角逐<br />
+                    有资格申请开通赞赏功能；通过审核后，你的作品、电台、专栏，均可以收到来自用户的不固定金额回报。</p>
+                <h4>3.申请时需要提交哪些资料</h4>
+                <p>个人的基本资料：艺人名、性别、头像、风格流派、厂牌、基本介绍<br />
+实名信息：手机号、真实姓名、证件号、证件正反面照片及本人手持证件照<br />
+作品：至少一首你自己的作品歌曲，320k以上 （如果是认领艺人则不需要上传作品）</p>
+                <h4>4.上传歌曲的基本要求</h4>
+                <p>可以是自己演唱或参与创作的音乐作品，作品经历完整的词曲、编曲、录音、混缩的过程，也可以是本人翻唱的作品； 音质在320kb以上，文件大小不超过200M。 注意：不能用搬运作品，否则无法通过音乐人申请。</p>
+                <h4>5.姓名和身份证号都检测正确，还是不能通过</h4>
+                <p>音乐人平台管理接入的是公安部门的实名系统，因为公安部门的一些限制，部分用户的实名信息无法查询到。遇到这种情况的用户，请私信【原创君】协助解决。</p>
+                <a id="con-2"></a> 
+                <h3><strong>作品和身份管理</strong></h3> 
+                <h4>1.入驻后上传歌曲</h4>
+                <p>登录网易云音乐，进入“创作者中心”板块中的“发布作品—发布音乐”，点击页面中的“创建普通专辑/上传作品至已发布专辑”按照要求操作就可以了</p>
+                <h4>2.音乐人认领了自己之后，主页已经有歌曲</h4>
+                <p>在认领之前，已经通过其他渠道收录了一些您的作品。成功认领后，您可以使用后台修正歌曲信息或替换为更高质量的版本，查看您的音乐人数据。</p>
+                <h4>3.上传歌词的方法</h4>
+                <p>在上传歌曲时，歌曲旁边有一个“歌词”的图标，点击打开弹框，将歌词复制到弹框里面就可以了。 如果是您要上传歌词到已上线作品中，请您至创作者中心“音乐”——“音乐管理”，右上角选择“单曲”，选择您要补充歌词的单曲，点击编辑选项后您就可以补充歌词。这是原创君最新推出的滚动歌词制作方法，您可以查看一下~ https://music.163.com/#/topic?id=19199135 说明：可以填入纯文本歌词，也可以将带有时间轴的LRC歌词直接复制进歌词弹框中！</p>
+                <h4>4.上传MV的方式</h4>
+                <p>MV上传目前仅支持电脑端操作。创作者中心—发布作品—发布视频/MV—上传MV。详见链接 https://music.163.com/#/topic?id=43355447。审核时效1个工作日。通过审核后，在web端/移动端，MV关联的歌曲均会出现MV标记。</p>
+                <h4>5.上原创榜的要求</h4>
+                <p>首先您要成为网易音乐人，作品上传后工作人员会逐首试听，如果作品质量不错，会在云音乐站内及微博进行推荐，原创榜根据站内原创歌曲的热度进行排序。</p>
+                <a name="con-3"></a> 
+                <h3><strong>作品和粉丝数据</strong></h3> 
+                <h4>1.音乐人可以查看哪些数据</h4>
+                <p>云音乐面向音乐人提供全面的作品和粉丝数据，包括：
+作品数据：昨日新增播放量、累计总播放量；每首单曲的近7日和近30日播放量、评论数量；单曲潜力指数、近7日飙升最快作品
+粉丝数据：昨日新增粉丝、新增粉丝关注来源，粉丝总数、潜在粉丝人数；粉丝性别比例、年龄比例、Top10城市比例、粉丝音乐偏好。
+注意：潜在粉丝人数，面向指数平均分到达610以上的音乐人开放；单曲潜力指数面向685分以上的音乐人开放。其他数据，向所有音乐人开放。</p>
+                <h4>2.作品和粉丝数据的更新时间</h4>
+                <p>音乐人后台中的所有数据，均为每日9:00更新。</p>
+                <h4>3. “近7日飙升最快”的三首歌</h4>
+                <p>我的作品中，最近7日的播放量比上一个7日提升幅度最高的前三首，仅显示有增长的作品。</p>
+                <h4>4.音乐人的潜力指数</h4>
+                <p>潜力指数代表每首单曲受云音乐用户的欢迎程度。它主要根据最近一段时间内，收听过该单曲的用户的操作行为，结合播放量，综合计算得出。
+潜力指数以10分为满分，但是目前对指数平均分在685以上的音乐人开放，每日更新。</p>
+                <h4>5.音乐人的潜在粉丝</h4>
+                <p>潜在粉丝指的是收藏过你的作品或者歌手页，但没有关注个人主页的用户。这些用户喜欢你的作品，但是目前不能在第一时间看到你的动态，进行互动。
+云音乐是个大社区，我们希望音乐人能够与喜欢自己作品的用户，建立真正的关系。音乐人多发布动态、撰写专栏、与用户互动，有助于把更多“收藏”变成“关注”。</p>
+                <a name="4"></a> 
+                <h3><strong>音乐人收入</strong></h3> 
+                <h4>1.网易音乐人的收入项目</h4>
+                <p>目前可供网易音乐人参加的收入项目包括会员包、数字专辑、赞赏、广告分成、作品点播分成、云豆， 这些收入项目都是为音乐人创作提供收益支持的增值服务，但并不等同于音乐人作品的版权费用。
+会员包是指将音乐人作品加入网易云音乐的会员付费包中，根据作品使用量情况按期获得会员订阅费的分成收益；
+数字专辑是指直接将音乐人的专辑以数字内容形式售卖，售卖期结束后您可以获得扣除平台运营费后的分成收入；
+赞赏是指音乐人可以指定自己原创作品加入赞赏计划，用户的每次打赏都将直接为您贡献收入；</p>
+                <h4>2.如何加入会员包项目或者开通数字专辑</h4>
+                <p>考虑到处于成长期的新晋音乐人更需要的是作品的曝光和传播，有利于更长远的发展，所以并不对所有音乐人都开放会员包和数字专辑项目的申请；
+综合对比会员或数字专辑内歌曲的平均热度，规定只有作品热度达到一定级别的音乐人才可以申请加入会员包或开通数字专辑，如果有开通需求请私信原创君咨询详情。</p>
+                <h4>3.如何开通作品赞赏？</h4>
+                <p>赞赏服务可在这里申请开通，由运营审核通过后方可使用</p>
+                <h4>4.如何开通广告分成？</h4>
+                <p>加入版权授权的原创歌曲自动加入广告分成计划。开启后，将会自动进行广告收入结算。</p>
+                <h4>5.如何加入作品点播计划？</h4>
+                <p>作品点播计划将在您授权歌曲后自动开通，歌曲有播放后可获得一定量的点播分成。</p>
+                <a name="5"></a> 
+                <h3><strong>版权管理</strong></h3> 
+                <h4>1.音乐人可以给什么歌曲授权</h4>
+                <p>若您为原创曲的版权持有者，或您被版权持有者赋予了对歌曲进行授权的权利，您可以在<版权管理>成为签约音乐人，您也可以给单首歌曲进行授权。此合约将在约定期限内对您持有版权授权权利的歌曲生效。 若您为原创曲的版权持有者，或您被版权持有者赋予了对歌曲进行授权的权利，您可以在签署非独家或独家的音乐人授权合约，此合约将在约定期限内对您持有版权授权权利的歌曲生效。
+请确保您本人拥有对选中歌曲进行授权的完整权利。若您只持有作品的部分版权，您需要征求其他部分版权持有者的同意后进行授权。合同签署后若出现版权所有权质疑，您需要提供授权资格证明。
+若我们发现您将不合要求的歌曲(非原创/盗传/抄袭/敏感内容等)进行授权以获利，我们有权终止合约、撤销您的音乐人身份、并永久黑名单。对网易公司造成的损失，我们将依法保留追究责任的权利。</p>
+                <h4>2.什么是签约音乐人</h4>
+                <p>签约音乐人有独家音乐人和非独家音乐人两种类型。若您成为独家音乐人，则您拥有完整授权权利的歌曲、以及未来上传并拥有完整授权权利的歌曲，都将在约定期限内为网易云音乐的独家歌曲。若您成为非独家音乐人，则您拥有完整授权权利的歌曲、以及未来上传并拥有完整授权权利的歌曲，都将在约定期限内为网易云音乐的非独家歌曲。
+
+独家音乐人比非独家音乐人可享受更多云豆、更多广告分成、更多推广流量、更多定向私信使用次数等。
+
+签约仅为版权层面的合作，并非艺人经纪约。</p>
+                <h4>3.成为签约音乐人可以获得的权益</h4>
+                <p>成为签约音乐人后，您可以获得更多比例的云豆(最多可增幅15%)，推广流量使用量翻倍，定向推送私信次数翻倍，以及未来更多签约音乐人专属的特权。</p>
+                <h4>4.如何成为签约音乐人</h4>
+                <p>您可以在<版权授权>成为签约音乐人。签约时您需要选择签约类型并排除掉您没有完整授权权利的歌曲。工作人员审核通过后，您将成为签约音乐人。</p>
+                <h4>5.音乐人是否有签约成为音乐人/授权歌曲的资格</h4>
+                <p>只要你是云音乐的入驻音乐人，就有资格签约授权并享受云豆特权。</p>
+                <a name="6"></a> 
+                <h3><strong>ISRC相关</strong></h3> 
+                <h4>1. ISRC是什么？</h4>
+                <p>ISRC全称International Standard Recording Code，即国际标准录音制品编码。作为歌曲“录音”永久唯一的国际识别码，当录音制品以不同的格式、通过不同发行渠道与产品传播与使用时，ISRC有助于录音制品的管理，且避免不同录音版本的模糊识别。当录音制品跨境传播、通过不同的音乐服务商或以各种方式与场景传播与使用时，ISRC是录音制品在全球数字环境下唯一固定的识别参考。</p>
+                <h4>2.ISRC的用途</h4>
+                <p>ISRC编码，俗称“录音版号”。录音制品出版与传播使用时，国家要求ISRC编码申领。实体唱片的出版必须具备ISRC。在数字音乐环境全球化、正规化的进程中，ISRC也成为数字发行的必须品。</p>
+                <h4>3.音乐人申请ISRC的条件？</h4>
+                <p>音乐人需将歌曲独家授权给网易云音乐，独家授权的歌曲可通过云音乐免费申请ISRC。</p>
+                <h4>4.ISRC分配的一般规则说明</h4>
+                <p>新产生的录音制品，和有实质性改变的录音版本需要获得新的ISRC。
+ISRC编码在录音制品或者音乐录影（MV）在发布之前进行分配，并且编码伴随制品保持长久不变。
+ISRC编码的分配可以追溯。如果在没有ISRC的情况下发布录音，则应在再次发布时或其他适当时机，将ISRC码补齐。
+每个不同的录音应该拥有其独特的ISRC。如果录音制品以不同的比特率或者不同的文件格式出现，则保留相同的ISRC。
+根据实际录音内容的差异，录音制品被视为不同版本，需获得不同的ISRC。例如：录音可播放时长不同的版本，混音与剪辑不同的版本等。一般规则是，如果对录音所做的更改涉及新的艺术输入，则需要新的ISRC分配到新的录音版本。</p>
+                <h4>5.ISRC与录音版权的关系</h4>
+                <p>ISRC仅仅识别和记录的是录音制品，而并非是在某段期间内的录音版权归属的依据。但在首次申请时，只有录音制品当前的所有者，才能提交ISRC申请。通过云音乐申请ISRC，申请人仍旧是录音版权所有者。
+如果录音制品原本没有ISRC，但录音版权所有者已发生改变，只有当前录音版权所有者才能够提交ISRC的申请。
+如果录音版权所有者发生变化，已经获得ISRC的录音制品，则不应改变或重申ISRC。</p>
+                </div>
+        </div>
+	</div>
+</div>
+<div class="topa" id="g_backtop" hidefocus="true">
+    <span class='glyphicon glyphicon-menu-up'></span>
+</div>
+<div id="foot" style="margin-top:0;">
+  <div class="trail-box">
+	<p>
+	  <a href="#" target="_blank">帮助</a> | 
+	  <a href="#" target="_blank">官方微博</a> | 
+	  <a href="#" target="_blank">新浪网导航</a> | 
+	  <a href="#" target="_blank">未成年人家长监护</a>
+	</p>
+	<p class="copyright"><span>网易云音乐网络技术有限公司 
+	  <a target="_blank" href="#" class="JWW_num" style="margin:0px 15px;">京网文[2011]0398-130号</a> 
+京ICP证100780号</span>Copyright © 1996-2017 SINA</p>
+	<p class="copyright"><span>地址：北京市海淀区西北旺东路10号院新浪总部大厦  电话：010-57462673</span></p>
+	</div>
+</div>
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/sousuo.js"></script>
+<script type="text/javascript">
+$('#content').scrollspy({
+		offset:0,
+		target:'#nav',
+});
+$('#nav a').on('click',function(e){
+	e.preventDefault();
+	$(this).tab('show');
+});
+$('#content').scrollspy({
+	offset:0,
+	target:'#nav',
+});
+$("#btn").on("click",function(){
+	$("#myModal").modal("show");
+});
+$("#myModal").modal({
+	show:false,
+	backdrop:false,
+	keyboard:false,
+});
+</script>
+</body>
+</html>
