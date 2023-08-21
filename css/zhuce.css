@@ -1,0 +1,13 @@
+.p{color:red;margin-left:20px;display:inline-block;}
+.c{color:red;margin-left:4px;display:inline-block;}
+.l{font-size:18px;}
+.d{height:35px;width:300px;display:inline;} 
+.i{ height:30px; width:250px;}
+.d1{
+	width:440px;
+	height: 550px;
+	background-color: #ccc;
+	margin-left: 460px;
+	margin-top: 50px;
+	border: 1px solid gray;
+}

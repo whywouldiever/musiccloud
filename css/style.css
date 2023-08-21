@@ -1,0 +1,94 @@
+.a{height:50px; margin:50px 0 150px 0;}
+.container{ margin-bottom:10px;}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #999;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    margin: 30px 0 0 0;
+}
+h3{margin-top:120px;}
+#myCarousel { margin:100px 0 0 0; } 
+.carousel-inner .item img { margin: 80px  auto 0  auto; } 
+.carousel-control { font-size: 100px; }
+.btn-success{align: center;}
+.navbar-fixed-top {
+    border-bottom-width: 0px;}
+.top{width:100%; height:80px; background-color:#000000; float:left;}
+
+.aa{width:260px;}
+.aa span{size:24px; font-weight:bold; color:#FFF; line-height:20px;}
+.top img{padding:15px 10px 15px 100px;}
+.right1{float:right; width:455px;margin-top: -37px;padding-right: 260px;}
+.bb{width:160px; height:40px;float:right;margin-top: -44px;margin-right: 80px;}
+.list-group {
+	padding-top: 100px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+.thumbnail {border: 1px solid #ddd;}
+.thumbnail:hover{transform: scale(1.1);}
+.pagination{margin: 20px auto;}
+#content{margin-top:-21px;}
+.jumbotron p {font-size: 14px; text-indent: 4em; padding-left: 2em;}
+.jumbotron { margin: 80px 0 0 0; 
+			padding: 60px 0; 
+			background:#CCCCCC; 
+			color: #fff; 
+			} 
+.jumbotron h1 { font-size: 26px; padding: 0 0 0 20px;} /*768,30; 992,33; 1200,36;*/ 
+.jumbotron h4 { font-size: 16px; padding: 0 0 0 20px;} /*768,16; 992,17; 1200,18*/
+#about { padding: 40px 15px; background-color: #eee; } 
+#about .about { background-color: #fff; box-shadow: 2px 2px 3px #ccc; padding-bottom: 20px; } 
+#about h3 { margin: 0 0 10px 0;padding: 20px 0; border-bottom: 1px solid #eee; font-size: 18px; }/*768,19; 992,20; 1200 22;*/
+#about h4{margin: 0 0 10px 0;padding: 10px 20px;}
+#about p { line-height: 2; font-size: 13px;margin: 0 0 10px 0; padding: 0 40px;} /*768,14; 992,15; 1200 16;*/ 
+
+.zj{float:left; margin-right:30px;}
+.m-back {
+    display: block;
+    position: fixed;
+    _position: absolute;
+    text-indent: 9999px;
+    left: 50%;
+    margin-left: 500px;
+    bottom: 160px;
+    width: 49px;
+    height: 44px;
+    background-position: -265px -47px;
+}
+.topa{
+cursor:pointer;width:50px;height:40px; left:1268px;border-radius:10px;background: gray;color:#FFFFFF;opacity:0.5;line-height:50px;text-align:center;font-size:25px;position:fixed;bottom:15px;right:80px;
+}
+.topa:hover{opacity:0.3;}
+
+#foot{ height:200px;font: normal 12px/1.5 Microsoft YaHei,Arial,san-serif;color: #aaa;background-color:#333333;overflow: hidden; margin-top:100px;}
+.trail-box{width:100%; height:200px;font: normal 12px/1.5 Microsoft YaHei,Arial,san-serif;color: #aaa;outline: 0;border: 0; width: 860px;margin: 70px auto 0 auto;padding: 0 0 50px 160px;}
+.trail-box a{text-decoration:none; color:#999999;}
+.trail-box a:hover{color:#fff;}
+/* 小屏幕（桌面显示器，大于等于 768px） */ 
+@media (min-width: 768px) { 
+.jumbotron h1 { font-size: 30px;} 
+.jumbotron h4 { font-size: 16px;}
+#about h3 {font-size: 19px;} 
+#about p {font-size: 14px;}
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */ 
+@media (min-width: 992px){
+.jumbotron h1 { font-size: 33px;} 
+.jumbotron h4 { font-size: 17px;}
+#about h3 {font-size: 20px;} 
+#about p {font-size: 15px;}
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */ 
+@media (min-width: 1200px) { 
+.jumbotron h1 { font-size: 36px;} 
+.jumbotron h4 { font-size: 18px;}
+#about h3 {font-size: 22px;} 
+#about p {font-size: 16px;}
+}
